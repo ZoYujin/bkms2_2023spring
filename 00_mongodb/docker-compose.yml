@@ -1,0 +1,41 @@
+# File Version
+version: '3'
+# Define the services
+services:
+  mongodb:
+    image: mongo:6.0.4  # image name:tag
+    container_name: mongodb
+    restart: always
+    networks:
+      - appnet
+    ports:
+      - "27017:27017"  # export port : internal port
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+    volumes:
+      - ../data/mongodb:/data/db
+
+  monngo-express:
+    image: mongo-express:0.54.0
+    container_name: mongo-express
+    restart: always
+    networks:
+      - appnet
+    ports:
+      - "8081:8081"
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+      - ME_CONFIG_MONGODB_PORT=27017
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=1234
+      - ME_CONFIG_BASICAUTH_USERNAME=mongo
+      - ME_CONFIG_BASICAUTH_PASSWORD=1234
+    depends_on:
+      - mongodb
+      
+# Define the networks
+networks:
+  appnet:
+    name: app-bridge
+    driver: bridge
