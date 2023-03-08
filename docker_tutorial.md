@@ -24,7 +24,6 @@ $ docker ps
 $ docker exec -it [container name] bash
 ```
 
-
 * attach into the running container
 
 ```bash
