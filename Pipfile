@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 numpy = "*"
 pandas = "*"
-pymongo = "*"
 ipykernel = "*"
+pymongo = "==4.3.3"
 
 [dev-packages]
 
