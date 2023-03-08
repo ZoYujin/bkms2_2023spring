@@ -10,9 +10,9 @@ services:
       - appnet
     ports:
       - "27017:27017"  # export port : internal port
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_ROOT_PASSWORD=admin
+    # environment:
+    #   - MONGO_INITDB_ROOT_USERNAME=admin
+    #   - MONGO_INITDB_ROOT_PASSWORD=admin
     volumes:
       - ../data/mongodb:/data/db
       
