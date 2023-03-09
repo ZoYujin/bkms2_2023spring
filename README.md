@@ -16,7 +16,7 @@ For Ubuntu
 
 ```
 $ sudo apt-get update
-$ sudo apt-get install onpenjdk
+$ sudo apt-get install openjdk
 ```
 
 ### Docker
