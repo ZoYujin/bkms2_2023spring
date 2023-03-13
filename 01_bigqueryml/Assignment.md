@@ -16,8 +16,8 @@ Find a small tabular dataset to train a machine learning model with BigQuery ML.
 - BigQuery ML Tutorial: [https://cloud.google.com/bigquery-ml/docs/tutorials?hl=ko](https://cloud.google.com/bigquery-ml/docs/tutorials?hl=ko)
 
 1. (2 pts) Write the link of your dataset. What is the task? Create your dataset and table in the BigQuery. Describe the Table schema(field name, type...). 
-2. (6 pts) Query 3~5 questions of you data set in the BigQuery console. 
-3. (6 pts) Train your model. 
+2. (4 pts) Query 3~5 questions of you data set in the BigQuery console. 
+3. (8 pts) Train your model. 
     1. Define train-set, (or validation-set,) test-set.
     2. Create Model
     3. Evaluate Model
