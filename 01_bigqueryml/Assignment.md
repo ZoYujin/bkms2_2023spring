@@ -22,4 +22,4 @@ Find a small tabular dataset to train a machine learning model with BigQuery ML.
     2. Create Model
     3. Evaluate Model
     4. Prediction
-4. (1 pts) How much query quota did you use?
+4. (1 pts) How much query quota did you use? Please attach the screen shot.
