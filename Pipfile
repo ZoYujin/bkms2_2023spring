@@ -8,6 +8,8 @@ numpy = "*"
 pandas = "*"
 ipykernel = "*"
 pymongo = "==4.3.3"
+confluent-kafka = "==2.0.2"
+psycopg = {extras = ["binary"], version = "*"}
 
 [dev-packages]
 

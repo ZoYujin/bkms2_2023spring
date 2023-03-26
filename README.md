@@ -38,5 +38,11 @@ Please install following packages with `Python 3.10`
 ipykernel  # or jupyter (if you don't use VSCode)
 numpy
 pandas
-pymongo
+pymongo == 4.3.3
+confluent_kafka == 2.0.2
+psycopg[binary]
 ```
+
+## Kafka PPT
+
+Link: https://docs.google.com/presentation/d/1ltykRNF6T3tDhX7CyUb0ccbBz8rhMUO3A7cVWbOTeT0/edit?usp=sharing
