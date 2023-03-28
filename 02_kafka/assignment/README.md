@@ -8,7 +8,7 @@
 Please Make sure your code is executable. To start the docker-machines please run:
 
 ```bash
-$ cd 03_kafka/assignment
+$ cd 02_kafka/assignment
 $ docker-compose up -d
 ```
 
