@@ -3,7 +3,7 @@
 > Due: 2023-04-25 23:59
 
 - Please upload a single pdf file.
-- If you submit assignments after the due date, each day will decrease by 10% from the score. e.g., Submit before 2023-04-19 23:59: -10%
+- If you submit assignments after the due date, each day will decrease by 10% from the score. e.g., Submit before 2023-04-26 23:59: -10%
 
 Please Make sure your code is executable. To start the docker-machines please run:
 
