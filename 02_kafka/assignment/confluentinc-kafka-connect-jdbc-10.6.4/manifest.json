@@ -1,6 +1,6 @@
 {
   "name" : "kafka-connect-jdbc",
-  "version" : "10.5.2",
+  "version" : "10.6.4",
   "title" : "Kafka Connect JDBC",
   "description" : "The JDBC source and sink connectors allow you to exchange data between relational databases and Kafka.\n\nThe JDBC source connector allows you to import data from any relational database with a JDBC driver into Kafka topics. By using JDBC, this connector can support a wide variety of databases without requiring custom code for each one.\n\nData is loaded by periodically executing a SQL query and creating an output record for each row in the result set. By default, all tables in a database are copied, each to its own output topic. The database is monitored for new or deleted tables and adapts automatically. When copying data from a table, the connector can load only new or modified rows by specifying which columns should be used to detect new or modified data.\n\nThe JDBC sink connector allows you to export data from Kafka topics to any relational database with a JDBC driver. By using JDBC, this connector can support a wide variety of databases without requiring a dedicated connector for each one. The connector polls data from Kafka to write to the database based on the topics subscription. It is possible to achieve idempotent writes with upserts. Auto-creation of tables, and limited auto-evolution is also supported.",
   "owner" : {
@@ -29,12 +29,12 @@
   "docker_image" : {
     "namespace" : "confluentinc",
     "name" : "cp-kafka-connect",
-    "tag" : "10.5.2"
+    "tag" : "10.6.4"
   },
   "license" : [ {
     "name" : "Confluent Community License",
     "url" : "https://www.confluent.io/confluent-community-license"
   } ],
-  "component_types" : [ "source", "sink" ],
-  "release_date" : "2022-08-10"
+  "component_types" : [ "sink", "source" ],
+  "release_date" : "2023-03-02"
 }

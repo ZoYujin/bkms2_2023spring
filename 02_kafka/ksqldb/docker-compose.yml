@@ -169,7 +169,7 @@ services:
       KSQL_CONNECT_PLUGIN_PATH: "/usr/share/kafka/plugins"
       KSQL_CONNECT_REST_ADVERTISED_HOST_NAME: http://rest-proxy:8082/
     volumes:
-      - ./confluentinc-kafka-connect-jdbc-10.5.2:/usr/share/kafka/plugins/jdbc
+      - ./confluentinc-kafka-connect-jdbc-10.6.4:/usr/share/kafka/plugins/jdbc
 
   ksqldb-cli:
     image: confluentinc/ksqldb-cli:0.27.2
