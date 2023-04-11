@@ -45,11 +45,11 @@ Please do following instruction and write your code for each question:
     * `name`: User name extracted from `email_address` 
     * `card_number`: Card number
     * `sum_amount`: Summation of `amount`
-5. Create a table called `sum_normal_amount` group by user name. You have to give the following column names in the table: 
+5. Create a table called `sum_all_amount` group by user name. The condition is same as question 4. You have to give the following column names in the table: 
     * `name`: User name extracted from `email_address` 
-    * `count`: Number of card usage
+    * `count`: Number of card usage for each user.
     * `sum_amount`: Summation of `amount`
-6. From the result of `sum_normal_amount` table or `transactions` stream, (1) Is the threshold(current = 1000000000) reasonable for monitoring the abnormalities? (2) How about monitoring window size(current = 1day)? Please describe your thought and why.
+6. From the result of `sum_all_amount` table or `transactions` stream, (1) Is the threshold(current = 1000000000) reasonable for monitoring the abnormalities? (2) How about monitoring window size(current = 1day)? Please describe your thought and why.
 
 ---
 
