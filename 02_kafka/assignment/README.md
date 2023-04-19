@@ -45,7 +45,7 @@ Please do following instruction and write your code for each question:
     * `name`: User name extracted from `email_address` 
     * `card_number`: Card number
     * `sum_amount`: Summation of `amount`
-5. Create a table called `sum_all_amount` group by user name. The condition of the threshold `amount` is same as question 4. You have to give the following column names in the table: 
+5. Create a table called `sum_all_amount` group by user name. You have to give the following column names in the table: 
     * `name`: User name extracted from `email_address` 
     * `count`: Number of card usage for each user.
     * `sum_amount`: Summation of `amount`
